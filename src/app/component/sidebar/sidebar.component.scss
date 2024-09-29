@@ -1,0 +1,131 @@
+.sidebar-container {
+  position: relative;
+  /* Make it positioned */
+  top: 0;
+  /* Align to the top */
+  left: 16%;
+  /* Align to the left */
+  text-align: center;
+  /* Center text */
+  opacity: 1;
+  /* Full opacity */
+  margin: 0 auto;
+  /* Centering the container */
+  box-sizing: border-box;
+  /* Include padding and border in width calculation */
+  padding: 0 10px;
+  display: flex;
+  flex-direction: row;
+
+  /* Add some padding */
+  .flex-grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .first-div {
+    background: transparent url('../../../assets/img/Rectangle\ 5864\ \(1\).svg') 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    position: absolute;
+    opacity: 1;
+    top: 15px;
+    // left: 484px;
+    width: 342px;
+    height: 48px;
+  }
+
+  .second-div {
+    background: transparent url('../../../assets/img/Rec\ 5664.svg') 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    position: absolute;
+    opacity: 1;
+    top: 72px;
+    // left: 484px;
+    width: 342px;
+    height: 48px;
+  }
+
+  .third-div {
+    background: transparent url('../../../assets/img/Rectangle\ 5867\ \(1\).svg') 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    position: absolute;
+    opacity: 1;
+    top: 106px;
+    width: 342px;
+    height: 94px;
+
+    .dot-icon {
+      border: 1px solid var(--unnamed-color-787070);
+      background: transparent url('../../../assets/img/Rectangle\ 5868.svg') 0% 0% no-repeat padding-box;
+      border: 1px solid #787070;
+      border-radius: 2px;
+      position: absolute;
+      opacity: 1;
+      top: 14px;
+      left: 13px;
+      width: 12px;
+      height: 12px;
+    }
+  }
+
+  .four-div {
+    background: transparent url('../../../assets/img/Rectangle\ 5867\ \(1\).svg') 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    position: absolute;
+    opacity: 1;
+    top: 206px;
+    width: 342px;
+    height: 94px;
+  }
+
+  .five-div {
+    background: transparent url('../../../assets/img/Rectangle\ 5867\ \(1\).svg') 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    position: absolute;
+    opacity: 1;
+    top: 308px;
+    width: 342px;
+    height: 70px;
+  }
+
+  .six-div {
+    background: transparent url('../../../assets/img/Rectangle\ 5881.svg') 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    position: absolute;
+    opacity: 1;
+    top: 386px;
+
+    width: 342px;
+    height: 70px;
+  }
+
+  .seven-div {
+    background: transparent url('../../../assets/img/Rectangle\ 5884.svg') 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    position: absolute;
+    opacity: 1;
+    top: 463px;
+    width: 342px;
+    height: 70px;
+  }
+}
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .flex-grid {
+    flex-direction: row;
+    /* Change to row for better layout on mobile */
+  }
+
+  .sidebar-container {
+    width: 100%;
+    /* Full width on mobile */
+    height: auto;
+    /* Adjust height based on content */
+    padding: 0 16px;
+    /* Optional: Add some padding */
+  }
+
+  /* You can add more styles for other elements if needed */
+}

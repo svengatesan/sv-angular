@@ -1,0 +1,32 @@
+.main-container {
+    position: relative;
+    /* Make it positioned */
+    top: 0;
+    /* Align to the top */
+    left: 0;
+    /* Align to the left */
+    text-align: center;
+    /* Center text */
+    opacity: 1;
+    /* Full opacity */
+    margin: 0 auto;
+    /* Centering the container */
+    box-sizing: border-box;
+    /* Include padding and border in width calculation */
+    padding: 0 10px;
+    /* Add some padding */
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .example-container {
+      width: 100%;
+      /* Full width on mobile */
+      height: auto;
+      /* Adjust height based on content */
+      padding: 0 16px;
+      /* Optional: Add some padding */
+    }
+  
+  
+  }
